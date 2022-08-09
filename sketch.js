@@ -50,7 +50,7 @@ function draw() {
     text("Tap any where to start" , 100 , windowHeight - 300)
     text("1) Use the submarine to catch waste." ,100 , windowHeight - 200);
     text("2) Stay away from the fishes." ,  100 , windowHeight - 100);
-
+    score = 0;
     logo.visible = true;
     
     fishG.destroyEach();
